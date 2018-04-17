@@ -5,7 +5,7 @@
   "display": "fullscreen",
   "orientation": "landscape",
   "Scope": "/",
-  "start_url": "https://carolineveleda.github.io/GeekStore/index",
+  "start_url": "https://carolineveleda.github.io/GeekStore/",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
