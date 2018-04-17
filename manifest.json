@@ -3,7 +3,7 @@
   "theme_color": "rgba(195,81,81,0.89)",
   "background_color": "#ffffff",
   "display": "fullscreen",
-  "orientation": "undefined",
+  "orientation": "landscape",
   "Scope": "/",
   "start_url": "https://carolineveleda.github.io/GeekStore/",
   "icons": [
