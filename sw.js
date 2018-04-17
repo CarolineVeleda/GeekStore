@@ -13,8 +13,10 @@ self.addEventListener('install', function (event) {
         fetch(indexPage).then(function (response) {
             caches.open('pwabuilder-offline').then(function (cache) {
                 console.log('[PWA Builder] Cached index page during Install' + response.url);
-                return cache.addAll(['/GeekStore/', '/GeekStore/index.html', '/magnolia/cursos.html',
-                  '/GeekStore/sw.js','/GeekStore/sw.js',
+                return cache.addAll(['/GeekStore/', '/GeekStore/index.html', '/GeekStore/cadastro.html',
+                  '/GeekStore/sw.js','/GeekStore/sw.js', '/GeekStore/catalogo.html','/GeekStore/catalogo2.html','/GeekStore/formulario1.html',
+                  '/GeekStore/formulario2.html','/GeekStore/formulario3.html','/GeekStore/informacoes.html','/GeekStore/informacoes2.html',
+                  '/GeekStore/login.html','/GeekStore/master.css'
                 ]);
             });
         })
