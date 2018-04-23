@@ -6,7 +6,6 @@ self.addEventListener('install', function (event) {
         console.log('[PWA Builder] Cached index page during Install' + response.url);
         return cache.addAll([
                     '/GeekStore/',
-          newFunction(),
           '/GeekStore/cadastro.html',
           '/GeekStore/catalogo.html',
           '/GeekStore/catalogo2.html',
