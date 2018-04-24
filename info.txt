@@ -1,0 +1,27 @@
+select (estado)
+text ()
+tel (telefone)
+number (cep)
+radio (sexo)
+date (nasc)
+reset (nome impresso)
+checkbox (parcelar)
+pasword (codigo)
+email
+
+
+
+
+23 - evite código inline/incorporado
+22 - estilos no topo, scripts no rodapé
+21 - experimente o async
+20 - comprima sua folha de estilo***
+19 - combine vários arquivos css em um só
+18 - prefira <link> a @import
+12 - comprima seu script****
+15 - evite document.write
+9 - seletores
+4 - não escale imagens direto no código
+
+
+
