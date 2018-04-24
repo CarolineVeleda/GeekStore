@@ -31,7 +31,7 @@ self.addEventListener('install', function (event) {
           '/GeekStore/images/icons/icon-384x384.png',
           '/GeekStore/images/icons/icon-512x512.png',*/
 
-          '/GeekStore/css/master.css',
+          '/GeekStore/master.css',
 
           '/GeekStore/css/bootstrap-grid.css',
           '/GeekStore/css/bootstrap-grid.css.map',
